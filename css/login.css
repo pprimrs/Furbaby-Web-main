@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(file:///C:/Users/MASTER/Downloads/background_1.webp); /* background image property */
+    background-size: cover;
+    background-position: center;
+}
+.wrapper {
+    width: 420px;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.wrapper h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #61485e;
+    font-weight: 700;
+}
+.wrapper h3 {
+    color: #a6a6a6;
+}
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.wrapper .input-box input {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border: 1px solid #a6a6a6;
+    outline: none;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #a6a6a6;
+    padding: 20px 45px 20px 20px;
+}
+.wrapper .input-box i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-100%);
+    font-size: 20px;
+    color: #a6a6a6;
+}
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background: #61485e;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    margin: 50px auto;
+    display: block;
+    text-align: center;
+}

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(file:///C:/Users/MASTER/Downloads/background_1.webp); /* background image property */
+    background-size: cover;
+    background-position: center;
+}
+.container {
+    text-align: center;
+}
+.logo {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.btn {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 40%;
+    height: 45px;
+    background: #61485e;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 600;
+}
+.cat_dog {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
